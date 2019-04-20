@@ -26,15 +26,18 @@ Step 1: define worker function
 Step 2:
 
   // Create Pool Instance
+  
   var poolObj = pool.NewPool(5, 5, worker)
 
 
   
   // Adjust Pool Size(Add/Remove)
+  
   poolObj.AdjustPoolSize(10)
 
 
   
   // Add Task
+  
   poolObj.AddTask(1)
 
