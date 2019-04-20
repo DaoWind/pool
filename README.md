@@ -1,16 +1,4 @@
 # pool
-simple goroutine pool
-Usage:
-Step 1: define worker function
-  func worker(task interface{}) {
-    num, ok := task.(int)
-    if ok {
-      fmt.Printf("Do worker func %d\n", num);
-    } else {
-      fmt.Println("invalid task!!!");
-    }
-    time.Sleep(10*time.Second)
-  }# pool
 
 simple goroutine pool
 
